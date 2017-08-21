@@ -52,21 +52,21 @@ Shoot mails to kesav.tc8@gmail.com
 +++
 
 ## Almost everything:  
-- Includes: |
-	- Syntax | 
-	- Variable Types | 
-	- Conditions/Decisions | 
-	- Loops | 
+Includes: |
+- Syntax | 
+- Variable Types | 
+- Conditions/Decisions | 
+- Loops | 
 +++
-	- Datastructures | 
-		- List | 
-		- Set | 
-		- Dictionaries | 
-		- Tuples |
-	- Functions |
-	- Module and importing |
-	- Classes and Objects (Basics) |
-	- Files and I/O |
+- Datastructures | 
+	- List | 
+	- Set | 
+	- Dictionaries | 
+	- Tuples |
+- Functions |
+- Module and importing |
+- Classes and Objects (Basics) |
+- Files and I/O |
 
 ---
 
