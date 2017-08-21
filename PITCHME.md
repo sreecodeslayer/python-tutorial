@@ -196,3 +196,85 @@ del number1
 @[5](Print out the value and type of number2)
 
 @[7](Delete the variable and release allocated memory for the variable: number1)
+
++++
+
+## Strings:
+
+```python
+#!/usr/bin/python
+
+str = 'Hello World!'
+
+print str
+print str[0]
+print str[2:5]
+print str[2:]
+print str[:-1]
+print str * 2
+print str + "TEST"
+```
+
+@[5](Prints complete string)
+@[6](Prints first character of the string)
+@[7](Prints characters starting from 3rd to the last, ie. 5th here)
+@[8](Prints string starting from 3rd character)
+@[9](Prints string starting from last character, ie. Reverse of string)
+@[10](Prints string two times)
+@[11](Prints concatenated string, types should match. Instead ',' can be used to print out diff. typed variables if any)
+
++++
+
+### Let's look at some basic string operations
+
+```python
+#!/usr/bin/python
+
+str1 = 'Hello World!'
+str2 = 'Hope you are on your way to become a python expert'
+
+# Length of strings
+print "Length of str1 : ",len(str1)
+print "Length of str2 : ",len(str2)
+
+# Counting occurences
+print "Number of times 'a' and 'e' occur in str2 : \n",\
+"a: ",str2.count('a'),"\ne: ",str2.count('e')
+
+# Concatenation
+print str1+str2
+print str1,str2
+
+# Case based operation
+print str1.upper()
+print str1.lower()
+
+print str1.islower()
+print str1.isupper()
+
+print str1.lower().islower()
+
+
+# Starting and Ending of string validation
+print str1.startswith('Hello')
+print str1.startswith('Hel')
+print str1.startswith('hel')
+
+print str2.endswith('ex')
+print str2.endswith('rt')
+print str2.endswith('Expert')
+
+# Splitting string based on a character or their combination
+print str2.split(" ")
+print str2.split("your way")
+```
+@[3-4](Initialize the sample strings)
+@[6-8](len operation, finding length of a string)
+@[10-12](Occurence counting of certain character inside the string)
+@[14-16](Couple several string together to form a single long string)
+@[18-25](String case senstive based operations, conversion, verifying)
+@[28-35](Checking how a string starts and ends. Character by character approach)
+@[37-39](Splitting string based on a specific character or sub-string)
+
++++
+
