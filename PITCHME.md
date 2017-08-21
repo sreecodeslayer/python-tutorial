@@ -134,7 +134,7 @@ Shoot mails to kesav.tc8@gmail.com
 
 +++
 
-Single line commments
+Single line comments
 
 ```python
 # This is a python single line comment, usually used to give short description of the code below or above
@@ -146,7 +146,7 @@ Single line commments
 
 +++
 
-Multiline commments
+Multiline comments
 
 ```python
 '''
