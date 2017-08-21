@@ -30,7 +30,7 @@ Shoot mails to kesav.tc8@gmail.com
 - Easy maintainence |
 - Scalable and Portable |
 - Readability | 
-- Extensive open-source community
+- Extensive open-source community |
 - Major Scientific/AI/Machine learning/Data related application | 
 
 ---
@@ -47,21 +47,21 @@ Shoot mails to kesav.tc8@gmail.com
 
 +++
 
-## Almost everything: | 
-	- Includes: |
-		- Syntax | 
-		- Variable Types | 
-		- Conditions/Decisions | 
-		- Loops | 
-		- Datastructures | 
-			- List | 
-			- Set | 
-			- Dictionaries | 
-			- Tuples |
-		- Functions
-		- Module and importing |
-		- Classes and Objects (Basics) |
-		- Files and I/O |
+## Almost everything:  
+- Includes: |
+	- Syntax | 
+	- Variable Types | 
+	- Conditions/Decisions | 
+	- Loops | 
+	- Datastructures | 
+		- List | 
+		- Set | 
+		- Dictionaries | 
+		- Tuples |
+	- Functions
+	- Module and importing |
+	- Classes and Objects (Basics) |
+	- Files and I/O |
 
 ---
 
@@ -69,8 +69,8 @@ Shoot mails to kesav.tc8@gmail.com
 
 +++
 
-## There are two simple ways: | 
-	- Interactive Mode Programming (Python Shell) |  
-	- Script Mode Programming (Python Code Files) |  
+## There are two simple ways:
+- Interactive Mode Programming (Python Shell) |  
+- Script Mode Programming (Python Code Files) |  
 
 ---
