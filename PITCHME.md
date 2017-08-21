@@ -217,11 +217,11 @@ print str + "TEST"
 
 @[5](Prints complete string)
 @[6](Prints first character of the string)
-@[7](Prints characters starting from 3rd to the last, ie. 5th here)
-@[8](Prints string starting from 3rd character)
+@[7](Prints characters starting from 3rd to the nth, ie. 5th here)
+@[8](Prints string starting from 3rd character to the last)
 @[9](Prints string starting from last character, ie. Reverse of string)
 @[10](Prints string two times)
-@[11](Prints concatenated string, types should match. Instead ',' can be used to print out diff. typed variables if any)
+@[11](Prints concatenated string, types should match. ',' can be used to print out diff. typed variables if any)
 
 +++
 
@@ -272,8 +272,8 @@ print str2.split("your way")
 @[6-8](len operation, finding length of a string)
 @[10-12](Occurence counting of certain character inside the string)
 @[14-16](Couple several string together to form a single long string)
-@[18-25](String case senstive based operations, conversion, verifying)
-@[28-35](Checking how a string starts and ends. Character by character approach)
+@[18-25](String based operations, conversion, verifying)
+@[28-35](Checking how a string starts and ends.)
 @[37-39](Splitting string based on a specific character or sub-string)
 
 +++
