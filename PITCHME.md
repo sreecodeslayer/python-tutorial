@@ -57,12 +57,13 @@ Shoot mails to kesav.tc8@gmail.com
 	- Variable Types | 
 	- Conditions/Decisions | 
 	- Loops | 
++++
 	- Datastructures | 
 		- List | 
 		- Set | 
 		- Dictionaries | 
 		- Tuples |
-	- Functions
+	- Functions |
 	- Module and importing |
 	- Classes and Objects (Basics) |
 	- Files and I/O |
