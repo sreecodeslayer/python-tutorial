@@ -158,3 +158,41 @@ Python interpreter doesn't care to read this part.
 ```
 
 ---
+
+# Variable Types
+
++++
+
+## Variables:
+- reserved memory locations to store values |
+- the amount of memory allocated depends on the variable type |
+
++++
+
+## Types:
+- Numbers |
+- Strings |
+- List |
+- Tuple |
+- Dictionaries |
+
++++
+
+## Numbers:
+
+```python
+number1 = 1
+number2 = 2.5
+
+print "Number 1: ", number1
+print "Number 2: ", number2
+
+del number1
+```
+@[1](Define an integer, type: INT)
+@[2](Define a floating point real value, type : FLOAT)
+
+@[4](Print out the value of number1)
+@[5](Print out the value of number2)
+
+@[6](Delete the variable and release allocated memory for the variable: number1)
