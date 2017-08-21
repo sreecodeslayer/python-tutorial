@@ -52,7 +52,7 @@ Shoot mails to kesav.tc8@gmail.com
 +++
 
 ## Almost everything:  
-Includes: |
+#### Includes:
 - Syntax | 
 - Variable Types | 
 - Conditions/Decisions | 
