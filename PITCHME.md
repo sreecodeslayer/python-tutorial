@@ -90,6 +90,7 @@ Shoot mails to kesav.tc8@gmail.com
 +++
 
 ## Reserved Words:
+
 - and
 - exec
 - not
@@ -100,6 +101,9 @@ Shoot mails to kesav.tc8@gmail.com
 - for
 - pass
 - class
+
++++
+
 - from
 - print
 - continue
@@ -111,6 +115,9 @@ Shoot mails to kesav.tc8@gmail.com
 - else
 - return
 - del
+
++++
+
 - import
 - try
 - except
