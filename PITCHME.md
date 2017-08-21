@@ -23,6 +23,10 @@ Shoot mails to kesav.tc8@gmail.com
 
 # Why I love Python
 
+![Minion_aww](images/Minion_aww.png)
+
+---
+
 - General purpose | 
 - Interactive |
 - HIGH Level |
