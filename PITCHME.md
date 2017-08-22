@@ -364,8 +364,8 @@ So, **_tuples are lists_**, but are `immutable`.
 ```python
 #!/usr/bin/python
 
-tup1 = (12, 34.56);
-tup2 = ('abc', 'xyz');
+tup1 = (12, 34.56)
+tup2 = ('abc', 'xyz')
 
 print "Tuple 1: ",tup1
 print "Tuple 2: ",tup2
@@ -381,16 +381,16 @@ print "Tuple 2: ",tup2
 #!/usr/bin/python
 
 # Following action is not valid for tuples
-tup1[0] = 100;
+tup1[0] = 100
 # TypeError: 'tuple' object does not support item assignment
 
 # So let's create a new tuple as follows
 # Concatenation/Updation
-tup3 = tup1 + tup2;
+tup3 = tup1 + tup2
 print "Final tuple: ",tup3
 
 # Deletion
-tup4 = ('physics', 'chemistry', 1997, 2000);
+tup4 = ('physics', 'chemistry', 1997, 2000)
 print "Before deleting tup4 : ", tup4
 
 del tup4
