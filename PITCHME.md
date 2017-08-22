@@ -339,6 +339,10 @@ print "Max: ",max(list3)
 # Sorting
 print "Ascending: ",list3.sort()
 print "Descending: ",list3.sort(reverse=True)
+
+# Counting occurences
+print "Occurence of 2001 in list3: ",list3.count('2000')
+print "Occurence of 2001 in list3: ",list3.count(2000)
 ```
 @[3-5](Printing of the third element)
 @[7-8](Change the value of element at index 2)
@@ -348,6 +352,7 @@ print "Descending: ",list3.sort(reverse=True)
 @[19-20](Removing from the list)
 @[24-29](Get min and max of both lists)
 @[31-33](Sorting the list both ways)
+@[35-37](Occurence counting of specific elements)
 
 +++
 
