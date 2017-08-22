@@ -358,7 +358,8 @@ print "Occurence of 2001 in list3: ",list3.count(2000)
 
 ## Tuples:
 
-So, *tuples are lists*, but are `immutable`.
+So, **_tuples are lists_**, but are `immutable`.
+**You CANNOT alter them, crazy right?**
 
 ```python
 #!/usr/bin/python
@@ -370,6 +371,7 @@ print "Tuple 1: ",tup1
 print "Tuple 2: ",tup2
 ```
 @[3-4](Initialize two sample tuples)
+@[6-7](Print them out)
 
 +++
 
@@ -396,7 +398,7 @@ print "After deleting tup : ",tup4
 # This will be an error , NameError: name 'tup' is not defined
 
 '''
-Implement the followin:
+Implement the following:
 	- Find len of tup1,tup2,tup3, print them
 	- Min, Max of tuples
 	- Count occurences of one of the tup3 element
@@ -406,9 +408,9 @@ Implement the followin:
 ```
 @[3-4](Invalid operation, will be an error)
 @[5](The error message you will receive)
-@[8-10](Concatenate two tuples, same as list)
+@[7-10](Concatenate two tuples, same as list)
 @[12-14](Let's make a new tuple)
 @[16-18](What happens when we del on tuple)
-@[20-25](Exercise for you)
+@[20-26](Exercise for you)
 
 +++
