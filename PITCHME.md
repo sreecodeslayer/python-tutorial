@@ -356,3 +356,59 @@ print "Occurence of 2001 in list3: ",list3.count(2000)
 
 +++
 
+## Tuples:
+
+So, *tuples are lists*, but are `immutable`.
+
+```python
+#!/usr/bin/python
+
+tup1 = (12, 34.56);
+tup2 = ('abc', 'xyz');
+
+print "Tuple 1: ",tup1
+print "Tuple 2: ",tup2
+```
+@[3-4](Initialize two sample tuples)
+
++++
+
+### Let's look at some basic Tuple operations:
+
+```python
+#!/usr/bin/python
+
+# Following action is not valid for tuples
+tup1[0] = 100;
+# TypeError: 'tuple' object does not support item assignment
+
+# So let's create a new tuple as follows
+# Concatenation/Updation
+tup3 = tup1 + tup2;
+print "Final tuple: ",tup3
+
+# Deletion
+tup4 = ('physics', 'chemistry', 1997, 2000);
+print "Before deleting tup4 : ", tup4
+
+del tup4
+print "After deleting tup : ",tup4
+# This will be an error , NameError: name 'tup' is not defined
+
+'''
+Implement the followin:
+	- Find len of tup1,tup2,tup3, print them
+	- Min, Max of tuples
+	- Count occurences of one of the tup3 element
+	- Sort tup3 (hmm??)
+'''
+
+```
+@[3-4](Invalid operation, will be an error)
+@[5](The error message you will receive)
+@[8-10](Concatenate two tuples, same as list)
+@[12-14](Let's make a new tuple)
+@[16-18](What happens when we del on tuple)
+@[20-25](Exercise for you)
+
++++
