@@ -283,3 +283,71 @@ print str2.split("your way")
 
 +++
 
+## Lists:
+
+```python
+#!/usr/bin/python
+
+list1 = ['physics', 'chemistry', 1997, 2000];
+list2 = [1, 2, 3, 4, 5, 6, 7 ];
+
+print "First element of list1: ", list1[0]
+print "Elements from index 1 to 4: ", list2[1:5]
+
+print "Total no. of elements:\n list1: ",len(list1),"\nlist2: ",len(list2)
+```
+@[3-4](Initialize two sample python lists)
+@[6](Print out the first element. Note the index)
+@[7](Print elements in index 1-4)
+@[9](Print length of both lists)
+
++++
+
+### Let's look at some basic List operations:
+
+```python
+#!/usr/bin/python
+
+list3 = ['physics', 'chemistry', 1997, 2000];
+
+print "Value available at index 2 : ",list3[2]
+
+# Updation
+list3[2] = 2001;
+
+print "New value available at index 2 : ",list3[2]
+
+list3.append("biology")
+print "List with a new entry: ",list3
+
+# Deletion
+del list3[1]
+print "List after deletion: ",list3
+
+list3.remove(2000)
+print "List after removing 2000: ",list3
+
+list4 = [100, 200, 300, 400, 500, 600, 700];
+
+# Min Max
+print "Min: ",min(list4)
+print "Min: ",min(list3)
+
+print "Max: ",max(list4)
+print "Max: ",max(list3)
+
+# Sorting
+print "Ascending: ",list3.sort()
+print "Descending: ",list3.sort(reverse=True)
+```
+@[3-5](Printing of the third element)
+@[7-8](Change the value of element at index 2)
+@[10](Confirm the change)
+@[12-13](Appending the list)
+@[15-17](Delete and confirm the change)
+@[19-20](Removing from the list)
+@[24-29](Get min and max of both lists)
+@[31-33](Sorting the list both ways)
+
++++
+
