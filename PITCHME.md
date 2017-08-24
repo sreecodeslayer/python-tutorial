@@ -414,3 +414,63 @@ Implement the following:
 @[20-26](Exercise for you)
 
 +++
+
+# Well done!! Good job finishing the codes!
+![Minion_smirk](images/minion_smirk.png)
+
++++
+
+## Dictionaries
+
+**We all know what dictionaries are. They have unique keys, and keys have corresponding _values_**
+
+```python
+#!/usr/bin/python
+
+dict1 = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
+
+print "dict1['Name']: ", dict1['Name']
+print "dict1['Age']: ", dict1['Age']
+```
+@[2](Initialize a sample dictionary)
+@[4-5](Printing value of certain keys)
+
++++
+
+### Let's look at some basic Dictionary operations:
+
+```python
+#!/usr/bin/python
+
+# Updation
+dict1['Age'] = 8 # update existing entry
+dict1['School'] = "DPS School" # Add new entry
+
+print "dict1['Age']: ", dict1['Age']
+print "dict1['School']: ", dict1['School']
+
+# Deletion
+dict2 = {'Name': 'Sachin', 'Age': 10, 'Place': 'Vadakara', 'College':'CE Vadakara'}
+
+# remove entry with key 'Name'
+del dict2['Name']
+print "Remove the name from the dictionary: ",dict2
+
+# remove all entries in dict
+dict2.clear()
+print "Cleared: ",dict2
+
+# delete entire dictionary
+del dict 2
+print "Removed completely from memory: ",dict2
+# NameError: name 'dict2' is not defined
+
+
+```
+@[4-5](Updating dictionary, adding new entry)
+@[7-8](Confirmations)
+@[11](Create another sample dictionary)
+@[13-15](Effect of del when key specified)
+@[17-19](Clear operation)
+@[21-23](del on whole dictionary)
+@[24](Error that you might have received)
